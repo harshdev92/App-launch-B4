@@ -1,0 +1,88 @@
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/*carous1el style*/
+  
+
+.mobile-caption{
+    top:-19px;
+    bottom: auto;   
+}
+
+
+/*scroll up style*/
+
+
+#scrollUp {
+    background-image: url("../images/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
+
+
+/*media query*/
+
+
+@media screen and (min-width:699px){
+    
+    .mobile-caption{
+        display: none;
+        }
+}
+
+
+.main-caption {
+    top: 330px;
+    left: 40px;
+    bottom: auto;
+    right: auto;        
+    background-color: black;
+    opacity: .6;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+
+.main-caption hr{
+    background-color: white;
+    opacity: .7;
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 700px){
+    
+    .main-caption {
+    top: 200px;
+    left: 40px;
+    bottom: auto;
+    right: auto;        
+    background-color: black;
+    opacity: .6;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+    
+}
+
+
+@media screen and (max-width:699px){
+    
+    .main-caption{
+        display: none;
+        
+    }
+}
+
+
+
+
+
+
+
+  
+ 
